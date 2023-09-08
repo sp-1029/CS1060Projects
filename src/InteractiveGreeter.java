@@ -9,6 +9,7 @@ public class InteractiveGreeter {
         String place = scanner.nextLine();
         System.out.println("How old are you? (years)");
         int age = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Hello " + name + " from " + place + ", you are " + age + " years old");
         System.out.println("What is your favorite activity?");
         String activity = scanner.nextLine();
