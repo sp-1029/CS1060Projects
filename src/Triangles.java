@@ -36,7 +36,7 @@ public class Triangles {
     }
 
     public static int giveSize() {
-        for (int i = 0; i == 0; ) {
+        for (int i = 0; true; ) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("enter size");
             int size = scanner.nextInt();
@@ -46,7 +46,6 @@ public class Triangles {
                 return size;
             }
         }
-        return 0;
     }
 }
 

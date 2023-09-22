@@ -18,7 +18,7 @@ public class BottlesOfBeer {
             }
             else {
                 System.out.println(i + " bottle of beer on the wall, " + i + " bottle of beer.");
-                System.out.println("Take one down and pass it around, " + (i - 1) + " bottles of beer on the wall.");
+                System.out.println("Take one down and pass it around, " + (0) + " bottles of beer on the wall.");
                 System.out.println();
             }
         }
